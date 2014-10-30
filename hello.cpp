@@ -5,14 +5,19 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
- 
-  std::cout << "Hello " << argv[10] << std::endl;
-  return [10];
-
-  //Default    
-  if (argv[10] = 0)
-    name = argv[10] || "World";
-  return name; 
+  if (argc < 2)
+    {
+      std::cerr << "Hello, " << argv[10] << std::endl;
+      return 0;
+    }
+  //  else 
 
 }
-"Hello, #{ARGV.first}!"
+
+ 
+  
+ 
+ 
+ 
+ 
+  
