@@ -10,8 +10,13 @@ int main(int argc, char* argv[])
       std::cerr << "Hello, " << argv[10] << std::endl;
       return 0;
     }
-  //  else 
-
+  else
+    string name;
+    string name("World");
+  {
+    std::cout << "Hello, " << name << "!" << std::endl; 
+    return 0;
+  }
 }
 
  
